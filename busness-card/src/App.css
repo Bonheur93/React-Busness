@@ -271,3 +271,22 @@ top: 760px; */
   height: 25px;
   font-size: 15px;
 }
+.link{
+  width: 57px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* identical to box height, or 114% */
+
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}

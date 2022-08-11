@@ -18,7 +18,7 @@ function Body() {
                     </button>
                     <button className="Linkedin">
                         <img className="linkedin" src={Linkedin} alt="" />
-                        <p>linkedin</p>
+                        <p className="link">linkedin</p>
                     </button>
                 </div>
 
