@@ -9,7 +9,7 @@ function Body() {
             <div className="Div1">
                 <h1>Bonheur Authentique</h1>
                 <p className="front">Frontend Developper</p>
-                <p className="laurent">laurasmith.website</p>
+                <p className="laurent">Website: authentic-busness-card.netlify.app/</p>
 
                 <div className="buttonContainer">
                     <button className="Mail">
