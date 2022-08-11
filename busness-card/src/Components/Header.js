@@ -1,11 +1,11 @@
 import React from "react";
-import Pic from "./Images/Pic.png";
+import bon from "./Images/bon.jpg";
 
 function Header(){
     return(
         <header>
             <nav>
-                <img className="pic" src={Pic} alt="" />
+                <img className="bon" src={bon} alt="" />
             </nav>
         </header>
     )

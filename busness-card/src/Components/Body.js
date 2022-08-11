@@ -7,7 +7,7 @@ function Body() {
         <main className="Main">
 
             <div className="Div1">
-                <h1>Laura Smith</h1>
+                <h1>Bonheur Authentique</h1>
                 <p className="front">Frontend Developper</p>
                 <p className="laurent">laurasmith.website</p>
 
