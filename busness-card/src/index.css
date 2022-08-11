@@ -17,3 +17,16 @@ body {
     
   }
 }
+@media screen and (max-width : 691px) {
+
+  .body{
+   
+    margin: 0;
+    padding: 0;
+    width: 309.9px;
+    height: 720px;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius:20px 20px;
+    
+  }
+}
