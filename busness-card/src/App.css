@@ -45,7 +45,7 @@
   background: #23252C;
 } */
 .bon{
-  width: 47.5vh;
+  width: 52.2vh;
   height: 50vh;
   border-top-right-radius: 20px 20px;
   border-top-left-radius:20px 20px;
@@ -290,3 +290,14 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+@media screen and (max-width : 750px) {
+.bon{
+  width: 47vh;
+  height: 50vh;
+  border-top-right-radius: 20px 20px;
+  border-top-left-radius:20px 20px;
+
+}
+}
+
+  
