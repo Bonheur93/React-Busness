@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.body {
+  /* position: relative; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  align-items: center;
+  background: #23252C;
+  
+}
+.Body{
+  background: #23252C;
+}
+
+.Main {
+  align-items: center;
+}
+
+.Div1 {
+  width: 317px;
+  height: 60vh;
+  left: 116px;
+  top: 361px;
+  background: #1A1B21;
+  align-items: center;
+  margin-top: -5px;
+  padding-top: 20px;
+}
+
+h1 {
+  display: inline;
+  width: 178.06px;
+  height: 25.81px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.front {
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 414px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  margin-left: 70px;
+  color: #F3BF99;
+}
+
+.laurent {
+  width: 228px;
+  height: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-left: 45px;
+  /* identical to box height, or 15px */
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.Mail {
+  margin-left: 25px;
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+
+  /* white */
+  background: #FFFFFF;
+
+  /* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.Linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 38px;
+  margin-right: 25px;
+
+  background: #5093E2;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.presentation {
+  width: 250px;
+  height: 201px;
+}
+
+.about {
+  text-align: left;
+  width: 242.71px;
+  height: 21px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin: auto;
+  margin-top: 25px;
+  margin-left: 35px;
+
+  /* or 24px */
+
+  color: #F5F5F5;
+}
+
+.About {
+
+  width: 247px;
+  height: 61px;
+  text-align: left;
+  margin-left: 35px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  /* or 15px */
+
+  color: #DCDCDC;
+}
+
+.Interests {
+  width: 242.71px;
+  height: 21px;
+
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* or 24px */
+
+  color: #F5F5F5;
+  margin-left: 35px;
+}
+
+.interests {
+  width: 247px;
+  height: 61px;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-left: 35px;
+  /* or 15px */
+
+  color: #DCDCDC;
+}
+
+.footer {
+  
+  width: 317px;
+  height: 64px;
+  /* left: 116px;
+top: 760px; */
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+
+}
+
+.icons{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.github {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
